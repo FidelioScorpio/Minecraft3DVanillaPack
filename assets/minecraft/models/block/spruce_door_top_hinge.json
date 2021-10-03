@@ -1,0 +1,162 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "minecraft:block/spruce_door_top",
+        "spruce_door_top": "minecraft:block/spruce_door_top",
+        "door_handle": "minecraft:block/door_handle"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Hinge",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 3, 16, 6 ], 
+            "faces": {
+                "north": { "texture": "#spruce_door_top", "uv": [ 2, 0, 5, 16 ] },
+                "east": { "texture": "#spruce_door_top", "uv": [ 10, 0, 16, 16 ] },
+                "south": { "texture": "#door_handle", "uv": [ 10, 0, 13, 16 ] },
+                "west": { "texture": "#spruce_door_top", "uv": [ 16, 0, 10, 16 ] },
+                "up": { "texture": "#spruce_door_top", "uv": [ 0, 7, 3, 13 ] },
+                "down": { "texture": "#spruce_door_top", "uv": [ 0, 6, 3, 12 ] }
+            }
+        },
+        {
+            "name": "Outside",
+            "from": [ 0, 0, 10 ], 
+            "to": [ 3, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#door_handle", "uv": [ 10, 0, 13, 16 ] },
+                "east": { "texture": "#spruce_door_top", "uv": [ 0, 0, 6, 16 ] },
+                "south": { "texture": "#spruce_door_top", "uv": [ 2, 0, 5, 16 ] },
+                "west": { "texture": "#spruce_door_top", "uv": [ 6, 0, 0, 16 ] },
+                "up": { "texture": "#spruce_door_top", "uv": [ 0, 7, 3, 13 ] },
+                "down": { "texture": "#spruce_door_top", "uv": [ 0, 6, 3, 12 ] }
+            }
+        },
+        {
+            "name": "LowerMiddle",
+            "from": [ 0, 0, 6 ], 
+            "to": [ 3, 6, 10 ], 
+            "faces": {
+                "east": { "texture": "#spruce_door_top", "uv": [ 6, 10, 10, 16 ] },
+                "west": { "texture": "#spruce_door_top", "uv": [ 10, 10, 6, 16 ] },
+                "up": { "texture": "#door_handle", "uv": [ 0, 7, 3, 11 ] },
+                "down": { "texture": "#spruce_door_top", "uv": [ 0, 6, 3, 10 ] }
+            }
+        },
+        {
+            "name": "UpperMiddle",
+            "from": [ 0, 9, 6 ], 
+            "to": [ 3, 16, 10 ], 
+            "faces": {
+                "east": { "texture": "#spruce_door_top", "uv": [ 6, 0, 10, 7 ] },
+                "west": { "texture": "#spruce_door_top", "uv": [ 10, 0, 6, 7 ] },
+                "up": { "texture": "#spruce_door_top", "uv": [ 0, 7, 3, 11 ] },
+                "down": { "texture": "#door_handle", "uv": [ 5, 4, 8, 8 ] }
+            }
+        },
+        {
+            "name": "HandleWestA",
+            "from": [ -1, 0, 2 ], 
+            "to": [ 0, 1, 3 ], 
+            "faces": {
+                "north": { "texture": "#spruce_door_top", "uv": [ 10, 15, 11, 16 ] },
+                "south": { "texture": "#spruce_door_top", "uv": [ 10, 15, 11, 16 ] },
+                "west": { "texture": "#spruce_door_top", "uv": [ 10, 15, 11, 16 ] },
+                "up": { "texture": "#spruce_door_top", "uv": [ 10, 15, 11, 16 ] },
+                "down": { "texture": "#spruce_door_top", "uv": [ 10, 15, 11, 16 ] }
+            }
+        },
+        {
+            "name": "HandleWestB",
+            "from": [ -1, 1, 3 ], 
+            "to": [ 0, 2, 5 ], 
+            "faces": {
+                "north": { "texture": "#spruce_door_top", "uv": [ 11, 14, 12, 15 ] },
+                "south": { "texture": "#spruce_door_top", "uv": [ 11, 14, 12, 15 ] },
+                "west": { "texture": "#spruce_door_top", "uv": [ 13, 14, 11, 15 ] },
+                "up": { "texture": "#spruce_door_top", "uv": [ 11, 14, 13, 15 ], "rotation": 270 },
+                "down": { "texture": "#spruce_door_top", "uv": [ 11, 14, 13, 15 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "HandleWestC",
+            "from": [ -1, 0, 5 ], 
+            "to": [ 0, 1, 6 ], 
+            "faces": {
+                "north": { "texture": "#spruce_door_top", "uv": [ 13, 15, 14, 16 ] },
+                "south": { "texture": "#spruce_door_top", "uv": [ 13, 15, 14, 16 ] },
+                "west": { "texture": "#spruce_door_top", "uv": [ 13, 15, 14, 16 ] },
+                "up": { "texture": "#spruce_door_top", "uv": [ 13, 15, 14, 16 ] },
+                "down": { "texture": "#spruce_door_top", "uv": [ 13, 15, 14, 16 ] }
+            }
+        },
+        {
+            "name": "HandleEastC",
+            "from": [ 3, 0, 5 ], 
+            "to": [ 4, 1, 6 ], 
+            "faces": {
+                "north": { "texture": "#spruce_door_top", "uv": [ 10, 15, 11, 16 ] },
+                "east": { "texture": "#spruce_door_top", "uv": [ 10, 15, 11, 16 ] },
+                "south": { "texture": "#spruce_door_top", "uv": [ 10, 15, 11, 16 ] },
+                "up": { "texture": "#spruce_door_top", "uv": [ 10, 15, 11, 16 ] },
+                "down": { "texture": "#spruce_door_top", "uv": [ 10, 15, 11, 16 ] }
+            }
+        },
+        {
+            "name": "HandleEastB",
+            "from": [ 3, 1, 3 ], 
+            "to": [ 4, 2, 5 ], 
+            "faces": {
+                "north": { "texture": "#spruce_door_top", "uv": [ 11, 14, 12, 15 ] },
+                "east": { "texture": "#spruce_door_top", "uv": [ 11, 14, 13, 15 ] },
+                "south": { "texture": "#spruce_door_top", "uv": [ 11, 14, 12, 15 ] },
+                "up": { "texture": "#spruce_door_top", "uv": [ 11, 14, 13, 15 ], "rotation": 270 },
+                "down": { "texture": "#spruce_door_top", "uv": [ 11, 14, 13, 15 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "HandleEastA",
+            "from": [ 3, 0, 2 ], 
+            "to": [ 4, 1, 3 ], 
+            "faces": {
+                "north": { "texture": "#spruce_door_top", "uv": [ 13, 15, 14, 16 ] },
+                "east": { "texture": "#spruce_door_top", "uv": [ 13, 15, 14, 16 ] },
+                "south": { "texture": "#spruce_door_top", "uv": [ 13, 15, 14, 16 ] },
+                "up": { "texture": "#spruce_door_top", "uv": [ 13, 15, 14, 16 ] },
+                "down": { "texture": "#spruce_door_top", "uv": [ 13, 15, 14, 16 ] }
+            }
+        }
+    ]
+}

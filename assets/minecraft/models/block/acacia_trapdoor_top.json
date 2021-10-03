@@ -1,0 +1,186 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "minecraft:block/acacia_trapdoor",
+        "acacia_trapdoor_part": "minecraft:block/acacia_trapdoor_part",
+        "acacia_trapdoor": "minecraft:block/acacia_trapdoor"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Bottom",
+            "from": [ 0, 13, 0 ], 
+            "to": [ 16, 16, 2 ], 
+            "faces": {
+                "north": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 16, 3 ] },
+                "east": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 2, 3 ] },
+                "south": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 16, 3 ] },
+                "west": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 2, 3 ] },
+                "up": { "texture": "#acacia_trapdoor", "uv": [ 16, 16, 0, 14 ] },
+                "down": { "texture": "#acacia_trapdoor", "uv": [ 0, 14, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Right",
+            "from": [ 0, 13, 2 ], 
+            "to": [ 2, 16, 16 ], 
+            "faces": {
+                "east": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 14, 3 ] },
+                "south": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 2, 3 ] },
+                "west": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 14, 3 ] },
+                "up": { "texture": "#acacia_trapdoor", "uv": [ 16, 14, 14, 0 ] },
+                "down": { "texture": "#acacia_trapdoor", "uv": [ 0, 0, 2, 14 ] }
+            }
+        },
+        {
+            "name": "Left",
+            "from": [ 14, 13, 2 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "east": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 14, 3 ] },
+                "south": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 2, 3 ] },
+                "west": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 14, 3 ] },
+                "up": { "texture": "#acacia_trapdoor", "uv": [ 2, 14, 0, 0 ] },
+                "down": { "texture": "#acacia_trapdoor", "uv": [ 14, 0, 16, 14 ] }
+            }
+        },
+        {
+            "name": "Top",
+            "from": [ 2, 13, 14 ], 
+            "to": [ 14, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 12, 3 ] },
+                "south": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 12, 3 ] },
+                "up": { "texture": "#acacia_trapdoor", "uv": [ 14, 2, 2, 0 ] },
+                "down": { "texture": "#acacia_trapdoor", "uv": [ 2, 0, 14, 2 ] }
+            }
+        },
+        {
+            "name": "BottomInner",
+            "from": [ 2, 13.5, 2 ], 
+            "to": [ 14, 15.5, 3 ], 
+            "faces": {
+                "south": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 12, 2 ] },
+                "up": { "texture": "#acacia_trapdoor", "uv": [ 14, 14, 2, 13 ] },
+                "down": { "texture": "#acacia_trapdoor", "uv": [ 2, 13, 14, 14 ] }
+            }
+        },
+        {
+            "name": "RightInner",
+            "from": [ 2, 13.5, 3 ], 
+            "to": [ 3, 15.5, 14 ], 
+            "faces": {
+                "east": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 11, 2 ] },
+                "up": { "texture": "#acacia_trapdoor", "uv": [ 14, 13, 13, 2 ] },
+                "down": { "texture": "#acacia_trapdoor", "uv": [ 2, 2, 3, 13 ] }
+            }
+        },
+        {
+            "name": "LeftInner",
+            "from": [ 13, 13.5, 3 ], 
+            "to": [ 14, 15.5, 14 ], 
+            "faces": {
+                "west": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 11, 2 ] },
+                "up": { "texture": "#acacia_trapdoor", "uv": [ 3, 13, 2, 2 ] },
+                "down": { "texture": "#acacia_trapdoor", "uv": [ 13, 2, 14, 13 ] }
+            }
+        },
+        {
+            "name": "TopInner",
+            "from": [ 3, 13.5, 13 ], 
+            "to": [ 13, 15.5, 14 ], 
+            "faces": {
+                "north": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 10, 2 ] },
+                "up": { "texture": "#acacia_trapdoor", "uv": [ 13, 3, 3, 2 ] },
+                "down": { "texture": "#acacia_trapdoor", "uv": [ 3, 2, 13, 3 ] }
+            }
+        },
+        {
+            "name": "PanellingR",
+            "from": [ 5, 14, 3 ], 
+            "to": [ 7, 15, 13 ], 
+            "faces": {
+                "east": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 10, 1 ] },
+                "west": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 10, 1 ] },
+                "up": { "texture": "#acacia_trapdoor", "uv": [ 9, 13, 11, 3 ] },
+                "down": { "texture": "#acacia_trapdoor", "uv": [ 9, 3, 11, 13 ] }
+            }
+        },
+        {
+            "name": "PanellingL",
+            "from": [ 9, 14, 3 ], 
+            "to": [ 11, 15, 13 ], 
+            "faces": {
+                "east": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 10, 1 ] },
+                "west": { "texture": "#acacia_trapdoor_part", "uv": [ 0, 0, 10, 1 ] },
+                "up": { "texture": "#acacia_trapdoor", "uv": [ 5, 13, 7, 3 ] },
+                "down": { "texture": "#acacia_trapdoor", "uv": [ 5, 3, 7, 13 ] }
+            }
+        },
+        {
+            "name": "Handle",
+            "from": [ 6, 16, 1 ], 
+            "to": [ 10, 17, 2 ], 
+            "faces": {
+                "north": { "texture": "#acacia_trapdoor_part", "uv": [ 6, 15, 10, 16 ] },
+                "east": { "texture": "#acacia_trapdoor_part", "uv": [ 10, 15, 11, 16 ] },
+                "south": { "texture": "#acacia_trapdoor_part", "uv": [ 6, 15, 10, 16 ] },
+                "west": { "texture": "#acacia_trapdoor_part", "uv": [ 10, 15, 11, 16 ] },
+                "up": { "texture": "#acacia_trapdoor_part", "uv": [ 6, 15, 10, 16 ] }
+            }
+        },
+        {
+            "name": "HandleR",
+            "from": [ 5, 16, 1 ], 
+            "to": [ 6, 16.5, 2 ], 
+            "faces": {
+                "north": { "texture": "#acacia_trapdoor_part", "uv": [ 10, 15, 11, 15.5 ] },
+                "south": { "texture": "#acacia_trapdoor_part", "uv": [ 10, 15, 11, 15.5 ] },
+                "west": { "texture": "#acacia_trapdoor_part", "uv": [ 10, 15, 11, 15.5 ] },
+                "up": { "texture": "#acacia_trapdoor_part", "uv": [ 10, 15, 11, 16 ] }
+            }
+        },
+        {
+            "name": "HandleL",
+            "from": [ 10, 16, 1 ], 
+            "to": [ 11, 16.5, 2 ], 
+            "faces": {
+                "north": { "texture": "#acacia_trapdoor_part", "uv": [ 10, 15, 11, 15.5 ] },
+                "east": { "texture": "#acacia_trapdoor_part", "uv": [ 10, 15, 11, 15.5 ] },
+                "south": { "texture": "#acacia_trapdoor_part", "uv": [ 10, 15, 11, 15.5 ] },
+                "up": { "texture": "#acacia_trapdoor_part", "uv": [ 10, 15, 11, 16 ] }
+            }
+        }
+    ]
+}

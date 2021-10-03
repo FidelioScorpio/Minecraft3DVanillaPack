@@ -1,0 +1,232 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "minecraft:block/warped_fungus",
+        "warped_fungus": "minecraft:block/warped_fungus"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Stem",
+            "from": [ 6, 0, 8 ], 
+            "to": [ 8, 3, 10 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 7, 11, 9, 14 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 7, 12, 9, 15 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 7, 12, 9, 15 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 7, 12, 9, 15 ] },
+                "down": { "texture": "#warped_fungus", "uv": [ 7, 13, 9, 15 ] }
+            }
+        },
+        {
+            "name": "Cap",
+            "from": [ 4.5, 3, 6.5 ], 
+            "to": [ 9.5, 5, 11.5 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 5, 8, 10, 10 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 7, 9, 12, 11 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 5, 7, 10, 9 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 3, 8, 8, 10 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 4, 7, 7, 10 ] },
+                "down": { "texture": "#warped_fungus", "uv": [ 5, 7, 9, 9 ] }
+            }
+        },
+        {
+            "name": "Bulge",
+            "from": [ 4.4, 4, 6.4 ], 
+            "to": [ 6.2, 5.1, 8.2 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 8, 9, 6, 10 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 10 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 8, 9, 6, 10 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 10 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 11 ] },
+                "down": { "texture": "#warped_fungus", "uv": [ 6, 11, 8, 9 ] }
+            }
+        },
+        {
+            "name": "Bulge",
+            "from": [ 7.8, 2.9, 9.8 ], 
+            "to": [ 9.6, 5.1, 11.6 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 9, 9, 11, 7 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 11, 7, 9, 9 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 9, 7, 11, 9 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 11, 9, 9, 7 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 9, 9, 11, 7 ] },
+                "down": { "texture": "#warped_fungus", "uv": [ 11, 9, 9, 7 ] }
+            }
+        },
+        {
+            "name": "Bulge",
+            "from": [ 6.5, 2.9, 6.4 ], 
+            "to": [ 8.5, 4, 7.4 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 10 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 6, 9, 7, 10 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 8, 9, 6, 10 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 7, 9, 8, 10 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 10 ] },
+                "down": { "texture": "#warped_fungus", "uv": [ 8, 9, 6, 10 ] }
+            }
+        },
+        {
+            "name": "Bulge",
+            "from": [ 6.8, 4, 6.8 ], 
+            "to": [ 8.8, 5.1, 8.8 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 10 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 10 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 10 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 10 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 11 ] }
+            }
+        },
+        {
+            "name": "Bulge",
+            "from": [ 4.4, 2.9, 9.5 ], 
+            "to": [ 5.4, 4.1, 11.6 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 6, 9, 7, 10 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 8, 9, 6, 10 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 8, 9, 7, 10 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 10 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 6, 9, 8, 10 ], "rotation": 90 },
+                "down": { "texture": "#warped_fungus", "uv": [ 8, 9, 6, 10 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Stem",
+            "from": [ 8, 0, 4 ], 
+            "to": [ 9, 2, 5 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 7, 11, 8, 13 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 7, 12, 8, 14 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 7, 12, 8, 14 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 7, 12, 8, 14 ] },
+                "down": { "texture": "#warped_fungus", "uv": [ 7, 13, 8, 14 ] }
+            }
+        },
+        {
+            "name": "Cap",
+            "from": [ 7, 2, 3 ], 
+            "to": [ 10, 3, 6 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 4, 9, 7, 10 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 10, 7, 13, 8 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 7, 7, 10, 8 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 4, 7, 7, 8 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 4, 7, 7, 10 ], "rotation": 180 },
+                "down": { "texture": "#warped_fungus", "uv": [ 4, 7, 7, 10 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Bulge",
+            "from": [ 6.9, 1.9, 2.9 ], 
+            "to": [ 8.1, 3.1, 4.1 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 9, 7, 10, 8 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 10, 7, 9, 8 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 10, 7, 9, 8 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 9, 7, 10, 8 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 9, 7, 10, 8 ], "rotation": 90 },
+                "down": { "texture": "#warped_fungus", "uv": [ 10, 7, 9, 8 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Bulge",
+            "from": [ 8.9, 1.9, 4.9 ], 
+            "to": [ 10.1, 3.1, 6.1 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 10, 7, 11, 8 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 11, 7, 10, 8 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 11, 7, 10, 8 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 10, 7, 11, 8 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 10, 7, 11, 8 ], "rotation": 90 },
+                "down": { "texture": "#warped_fungus", "uv": [ 11, 7, 10, 8 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Stem",
+            "from": [ 11, 0, 9 ], 
+            "to": [ 11.75, 1.5, 9.75 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 7, 11, 7.75, 12.5 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 7, 12, 7.75, 13.5 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 7, 12, 7.75, 13.5 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 7, 12, 7.75, 13.5 ] },
+                "down": { "texture": "#warped_fungus", "uv": [ 7, 13, 7.75, 13.75 ] }
+            }
+        },
+        {
+            "name": "Cap",
+            "from": [ 10, 1.5, 8 ], 
+            "to": [ 13, 2.25, 11 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 4, 7, 7, 7.75 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 4, 10, 7, 10.75 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 7, 10, 10, 10.75 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 7, 7, 10, 7.75 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 4, 7, 7, 10 ], "rotation": 270 },
+                "down": { "texture": "#warped_fungus", "uv": [ 4, 7, 7, 10 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Bulge",
+            "from": [ 11.9, 1.4, 7.9 ], 
+            "to": [ 13.1, 2.4, 9.1 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 9, 7, 10, 8 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 10, 7, 9, 8 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 10, 7, 9, 8 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 9, 7, 10, 8 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 9, 7, 10, 8 ], "rotation": 90 },
+                "down": { "texture": "#warped_fungus", "uv": [ 10, 7, 9, 8 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Bulge",
+            "from": [ 9.9, 1.4, 9.9 ], 
+            "to": [ 11.1, 2.4, 11.1 ], 
+            "faces": {
+                "north": { "texture": "#warped_fungus", "uv": [ 10, 7, 11, 8 ] },
+                "east": { "texture": "#warped_fungus", "uv": [ 11, 7, 10, 8 ] },
+                "south": { "texture": "#warped_fungus", "uv": [ 11, 7, 10, 8 ] },
+                "west": { "texture": "#warped_fungus", "uv": [ 10, 7, 11, 8 ] },
+                "up": { "texture": "#warped_fungus", "uv": [ 10, 7, 11, 8 ], "rotation": 90 },
+                "down": { "texture": "#warped_fungus", "uv": [ 11, 7, 10, 8 ], "rotation": 90 }
+            }
+        }
+    ]
+}

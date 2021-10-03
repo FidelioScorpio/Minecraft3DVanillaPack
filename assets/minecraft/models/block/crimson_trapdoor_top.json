@@ -1,0 +1,174 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "minecraft:block/crimson_trapdoor",
+        "crimson_trapdoor": "minecraft:block/crimson_trapdoor",
+        "crimson_planks": "minecraft:block/crimson_planks"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Wall",
+            "from": [ 0, 13, 0 ], 
+            "to": [ 16, 16, 2 ], 
+            "faces": {
+                "north": { "texture": "#crimson_planks", "uv": [ 0, 0, 16, 3 ], "cullface": "north" },
+                "east": { "texture": "#crimson_planks", "uv": [ 0, 0, 2, 3 ], "cullface": "east" },
+                "south": { "texture": "#crimson_trapdoor", "uv": [ 0, 2, 16, 3 ] },
+                "west": { "texture": "#crimson_planks", "uv": [ 0, 0, 2, 3 ], "cullface": "west" },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 0, 0, 16, 2 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 0, 2, 16, 0 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Wall",
+            "from": [ 0, 13, 14 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#crimson_trapdoor", "uv": [ 0, 13, 16, 14 ], "rotation": 180 },
+                "east": { "texture": "#crimson_planks", "uv": [ 0, 0, 2, 3 ], "cullface": "east" },
+                "south": { "texture": "#crimson_planks", "uv": [ 0, 0, 16, 3 ], "cullface": "south" },
+                "west": { "texture": "#crimson_planks", "uv": [ 0, 0, 2, 3 ], "cullface": "west" },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 0, 14, 16, 16 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 0, 16, 16, 14 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Wall",
+            "from": [ 0, 13, 2 ], 
+            "to": [ 2, 16, 14 ], 
+            "faces": {
+                "east": { "texture": "#crimson_trapdoor", "uv": [ 2, 2, 3, 14 ], "rotation": 90 },
+                "west": { "texture": "#crimson_planks", "uv": [ 0, 0, 12, 3 ], "cullface": "west" },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 0, 2, 2, 14 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 0, 14, 2, 2 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "Wall",
+            "from": [ 14, 13, 2 ], 
+            "to": [ 16, 16, 14 ], 
+            "faces": {
+                "east": { "texture": "#crimson_planks", "uv": [ 0, 0, 12, 3 ], "cullface": "east" },
+                "west": { "texture": "#crimson_trapdoor", "uv": [ 13, 2, 14, 14 ], "rotation": 270 },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 14, 2, 16, 14 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 14, 14, 16, 2 ], "cullface": "down" }
+            }
+        },
+        {
+            "name": "InnerWall",
+            "from": [ 2, 13.5, 2 ], 
+            "to": [ 14, 15.5, 3 ], 
+            "faces": {
+                "south": { "texture": "#crimson_trapdoor", "uv": [ 2, 2, 14, 3 ] },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 2, 2, 14, 3 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 2, 3, 14, 2 ] }
+            }
+        },
+        {
+            "name": "InnerWall",
+            "from": [ 2, 13.5, 4 ], 
+            "to": [ 14, 15.5, 7 ], 
+            "faces": {
+                "north": { "texture": "#crimson_trapdoor", "uv": [ 2, 4, 14, 5 ], "rotation": 180 },
+                "south": { "texture": "#crimson_trapdoor", "uv": [ 2, 6, 14, 7 ] },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 2, 4, 14, 7 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 2, 7, 14, 4 ] }
+            }
+        },
+        {
+            "name": "InnerWall",
+            "from": [ 2, 13.5, 9 ], 
+            "to": [ 14, 15.5, 12 ], 
+            "faces": {
+                "north": { "texture": "#crimson_trapdoor", "uv": [ 2, 9, 14, 10 ], "rotation": 180 },
+                "south": { "texture": "#crimson_trapdoor", "uv": [ 2, 11, 14, 12 ] },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 2, 9, 14, 12 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 2, 12, 14, 9 ] }
+            }
+        },
+        {
+            "name": "InnerWall",
+            "from": [ 2, 13.5, 13 ], 
+            "to": [ 14, 15.5, 14 ], 
+            "faces": {
+                "north": { "texture": "#crimson_trapdoor", "uv": [ 2, 13, 14, 14 ], "rotation": 180 },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 2, 13, 14, 14 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 2, 14, 14, 13 ] }
+            }
+        },
+        {
+            "name": "InnerWall",
+            "from": [ 2, 13, 5 ], 
+            "to": [ 14, 16, 6 ], 
+            "faces": {
+                "north": { "texture": "#crimson_trapdoor", "uv": [ 2, 5, 14, 6 ], "rotation": 180 },
+                "south": { "texture": "#crimson_trapdoor", "uv": [ 2, 5, 14, 6 ] },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 2, 5, 14, 6 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 2, 6, 14, 5 ] }
+            }
+        },
+        {
+            "name": "InnerWall",
+            "from": [ 2, 13, 10 ], 
+            "to": [ 14, 16, 11 ], 
+            "faces": {
+                "north": { "texture": "#crimson_trapdoor", "uv": [ 2, 10, 14, 11 ], "rotation": 180 },
+                "south": { "texture": "#crimson_trapdoor", "uv": [ 2, 10, 14, 11 ] },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 2, 10, 14, 11 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 2, 11, 14, 10 ] }
+            }
+        },
+        {
+            "name": "InnerWall",
+            "from": [ 2, 13.5, 2 ], 
+            "to": [ 3, 15.5, 14 ], 
+            "faces": {
+                "east": { "texture": "#crimson_trapdoor", "uv": [ 2, 2, 3, 14 ], "rotation": 90 },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 2, 2, 3, 14 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 3, 2, 2, 14 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "InnerWall",
+            "from": [ 13, 13.5, 2 ], 
+            "to": [ 14, 15.5, 14 ], 
+            "faces": {
+                "west": { "texture": "#crimson_trapdoor", "uv": [ 13, 2, 14, 14 ], "rotation": 270 },
+                "up": { "texture": "#crimson_trapdoor", "uv": [ 13, 2, 14, 14 ] },
+                "down": { "texture": "#crimson_trapdoor", "uv": [ 14, 2, 13, 14 ], "rotation": 180 }
+            }
+        }
+    ]
+}

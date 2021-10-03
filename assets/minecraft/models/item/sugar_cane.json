@@ -1,0 +1,108 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "minecraft:block/sugar_cane",
+        "sugar_cane": "minecraft:block/sugar_cane"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cane",
+            "from": [ 6, 0, 8 ], 
+            "to": [ 7, 16, 9 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 9, 0, 10, 16 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 9, 0, 10, 16 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 9, 0, 10, 16 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 9, 0, 10, 16 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 9, 0, 10, 1 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 9, 14, 10, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 5.75, 9, 7.75 ], 
+            "to": [ 7.25, 10, 9.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 9, 6, 10, 7 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 9, 6, 10, 7 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 9, 6, 10, 7 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 9, 6, 10, 7 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 5.75, 1, 7.75 ], 
+            "to": [ 7.25, 2, 9.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 9, 14, 10, 15 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 9, 14, 10, 15 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 9, 14, 10, 15 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 9, 14, 10, 15 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 5.5, 11.5, 8.25 ], 
+            "to": [ 6, 13.5, 8.75 ], 
+            "rotation": { "origin": [ 6.5, 12.5, 9.25 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 6.25, 4.5, 8.5 ], 
+            "to": [ 6.75, 6.5, 9 ], 
+            "rotation": { "origin": [ 6.5, 4.5, 9.5 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "minecraft:block/birch_door_bottom",
+        "birch_door_bottom": "minecraft:block/birch_door_bottom",
+        "birch_door_sides": "minecraft:block/birch_door_sides"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Bottom",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 3, 12, 16 ], 
+            "faces": {
+                "north": { "texture": "#birch_door_sides", "uv": [ 0, 0, 3, 12 ] },
+                "east": { "texture": "#birch_door_bottom", "uv": [ 0, 4, 16, 16 ] },
+                "south": { "texture": "#birch_door_sides", "uv": [ 0, 0, 3, 12 ] },
+                "west": { "texture": "#birch_door_bottom", "uv": [ 16, 4, 0, 16 ] },
+                "up": { "texture": "#birch_door_sides", "uv": [ 0, 0, 3, 16 ] },
+                "down": { "texture": "#birch_door_sides", "uv": [ 0, 0, 3, 16 ] }
+            }
+        },
+        {
+            "name": "UpperOutside",
+            "from": [ 0, 12, 0 ], 
+            "to": [ 3, 16, 3 ], 
+            "faces": {
+                "north": { "texture": "#birch_door_sides", "uv": [ 0, 0, 3, 4 ] },
+                "east": { "texture": "#birch_door_bottom", "uv": [ 13, 0, 16, 4 ] },
+                "south": { "texture": "#birch_door_sides", "uv": [ 0, 0, 3, 4 ] },
+                "west": { "texture": "#birch_door_bottom", "uv": [ 16, 0, 13, 4 ] },
+                "up": { "texture": "#birch_door_sides", "uv": [ 0, 0, 3, 3 ] }
+            }
+        },
+        {
+            "name": "UpperHinge",
+            "from": [ 0, 12, 13 ], 
+            "to": [ 3, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#birch_door_sides", "uv": [ 0, 0, 3, 4 ] },
+                "east": { "texture": "#birch_door_bottom", "uv": [ 0, 0, 3, 4 ] },
+                "south": { "texture": "#birch_door_sides", "uv": [ 0, 0, 3, 4 ] },
+                "west": { "texture": "#birch_door_bottom", "uv": [ 3, 0, 0, 4 ] },
+                "up": { "texture": "#birch_door_sides", "uv": [ 0, 0, 3, 3 ] }
+            }
+        },
+        {
+            "name": "PanellingMiddle",
+            "from": [ 1, 12, 7 ], 
+            "to": [ 2, 14, 9 ], 
+            "faces": {
+                "north": { "texture": "#birch_door_bottom", "uv": [ 7, 2, 8, 4 ] },
+                "east": { "texture": "#birch_door_bottom", "uv": [ 7, 2, 9, 4 ] },
+                "south": { "texture": "#birch_door_bottom", "uv": [ 7, 2, 8, 4 ] },
+                "west": { "texture": "#birch_door_bottom", "uv": [ 7, 2, 9, 4 ] }
+            }
+        },
+        {
+            "name": "PanellingH",
+            "from": [ 1, 14, 3 ], 
+            "to": [ 2, 15, 13 ], 
+            "faces": {
+                "east": { "texture": "#birch_door_bottom", "uv": [ 3, 1, 13, 2 ] },
+                "west": { "texture": "#birch_door_bottom", "uv": [ 3, 1, 13, 2 ] },
+                "up": { "texture": "#birch_door_bottom", "uv": [ 3, 1, 13, 2 ], "rotation": 90 },
+                "down": { "texture": "#birch_door_bottom", "uv": [ 3, 1, 13, 2 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "PanellingHinge",
+            "from": [ 1, 15, 5 ], 
+            "to": [ 2, 16, 6 ], 
+            "faces": {
+                "north": { "texture": "#birch_door_bottom", "uv": [ 5, 0, 6, 1 ] },
+                "east": { "texture": "#birch_door_bottom", "uv": [ 5, 0, 6, 1 ] },
+                "south": { "texture": "#birch_door_bottom", "uv": [ 5, 0, 6, 1 ] },
+                "west": { "texture": "#birch_door_bottom", "uv": [ 5, 0, 6, 1 ] },
+                "up": { "texture": "#birch_door_bottom", "uv": [ 5, 0, 6, 1 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "PanellingOutside",
+            "from": [ 1, 15, 10 ], 
+            "to": [ 2, 16, 11 ], 
+            "faces": {
+                "north": { "texture": "#birch_door_bottom", "uv": [ 10, 0, 11, 1 ] },
+                "east": { "texture": "#birch_door_bottom", "uv": [ 10, 0, 11, 1 ] },
+                "south": { "texture": "#birch_door_bottom", "uv": [ 10, 0, 11, 1 ] },
+                "west": { "texture": "#birch_door_bottom", "uv": [ 10, 0, 11, 1 ] },
+                "up": { "texture": "#birch_door_bottom", "uv": [ 10, 0, 11, 1 ], "rotation": 90 }
+            }
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "crimson_fungus": "minecraft:block/crimson_fungus"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Stem",
+            "from": [ 7, 0, 7 ], 
+            "to": [ 9, 3.5, 9 ], 
+            "faces": {
+                "north": { "texture": "#crimson_fungus", "uv": [ 7, 11.5, 9, 15 ] },
+                "east": { "texture": "#crimson_fungus", "uv": [ 7, 11.5, 9, 15 ] },
+                "south": { "texture": "#crimson_fungus", "uv": [ 7, 11.5, 9, 15 ] },
+                "west": { "texture": "#crimson_fungus", "uv": [ 7, 11.5, 9, 15 ] },
+                "down": { "texture": "#crimson_fungus", "uv": [ 7, 14, 9, 16 ] }
+            }
+        },
+        {
+            "name": "Cap1",
+            "from": [ 5.5, 3.5, 5.5 ], 
+            "to": [ 10.5, 4, 10.5 ], 
+            "faces": {
+                "north": { "texture": "#crimson_fungus", "uv": [ 4, 10, 9, 10.5 ] },
+                "east": { "texture": "#crimson_fungus", "uv": [ 5, 10, 10, 10.5 ] },
+                "south": { "texture": "#crimson_fungus", "uv": [ 7, 10, 12, 10.5 ] },
+                "west": { "texture": "#crimson_fungus", "uv": [ 5, 10, 10, 10.5 ] },
+                "down": { "texture": "#crimson_fungus", "uv": [ 5, 9, 7, 11 ] }
+            }
+        },
+        {
+            "name": "Cap2",
+            "from": [ 5, 4, 5 ], 
+            "to": [ 11, 5, 11 ], 
+            "faces": {
+                "north": { "texture": "#crimson_fungus", "uv": [ 6, 9, 12, 10 ] },
+                "east": { "texture": "#crimson_fungus", "uv": [ 4, 9, 10, 10 ] },
+                "south": { "texture": "#crimson_fungus", "uv": [ 5, 9, 11, 10 ] },
+                "west": { "texture": "#crimson_fungus", "uv": [ 4, 8, 10, 9 ] },
+                "up": { "texture": "#crimson_fungus", "uv": [ 6, 7, 8, 9 ] },
+                "down": { "texture": "#crimson_fungus", "uv": [ 5, 9, 7, 11 ] }
+            }
+        },
+        {
+            "name": "Cap3",
+            "from": [ 6, 5, 6 ], 
+            "to": [ 10, 7, 10 ], 
+            "faces": {
+                "north": { "texture": "#crimson_fungus", "uv": [ 6, 6, 10, 8 ] },
+                "east": { "texture": "#crimson_fungus", "uv": [ 5, 5, 9, 7 ] },
+                "south": { "texture": "#crimson_fungus", "uv": [ 7, 5, 11, 7 ] },
+                "west": { "texture": "#crimson_fungus", "uv": [ 5, 6, 9, 8 ] },
+                "up": { "texture": "#crimson_fungus", "uv": [ 6, 4, 10, 8 ] }
+            }
+        },
+        {
+            "name": "Cap4",
+            "from": [ 6.5, 7, 6.5 ], 
+            "to": [ 9.5, 7.5, 9.5 ], 
+            "faces": {
+                "north": { "texture": "#crimson_fungus", "uv": [ 7, 4, 10, 4.5 ] },
+                "east": { "texture": "#crimson_fungus", "uv": [ 6, 4, 9, 4.5 ] },
+                "south": { "texture": "#crimson_fungus", "uv": [ 7, 4, 10, 4.5 ] },
+                "west": { "texture": "#crimson_fungus", "uv": [ 6, 4, 9, 4.5 ] },
+                "up": { "texture": "#crimson_fungus", "uv": [ 6, 4, 9, 7 ] }
+            }
+        }
+    ]
+}

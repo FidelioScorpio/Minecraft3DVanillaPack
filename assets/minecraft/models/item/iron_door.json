@@ -1,0 +1,127 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "minecraft:block/iron_door_top",
+        "iron_door_top": "minecraft:block/iron_door_top",
+        "iron_door_bottom": "minecraft:block/iron_door_bottom"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 3.5, 0, 0 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 270, 0 ],
+            "translation": [ -3.5, 0, 8 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "head": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 2.25, -0.425, 0.375 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 36, 241, 35 ],
+            "translation": [ 0, 1.5, 1 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 26, 263, 39 ],
+            "translation": [ -2, 4.5, 4 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Hinge",
+            "from": [ 0, 8, 0 ], 
+            "to": [ 1.5, 16, 2 ], 
+            "faces": {
+                "north": { "texture": "#iron_door_bottom", "uv": [ 10, 0, 13, 8 ] },
+                "east": { "texture": "#iron_door_top", "uv": [ 4, 0, 0, 16 ] },
+                "south": { "texture": "#iron_door_bottom", "uv": [ 10, 0, 13, 8 ] },
+                "west": { "texture": "#iron_door_top", "uv": [ 0, 0, 4, 16 ] },
+                "up": { "texture": "#iron_door_bottom", "uv": [ 7, 3, 10, 7 ] },
+                "down": { "texture": "#iron_door_bottom", "uv": [ 6, 5, 9, 9 ] }
+            }
+        },
+        {
+            "name": "Outside",
+            "from": [ 0, 8, 6 ], 
+            "to": [ 1.5, 16, 8 ], 
+            "faces": {
+                "north": { "texture": "#iron_door_bottom", "uv": [ 10, 0, 13, 8 ] },
+                "east": { "texture": "#iron_door_top", "uv": [ 16, 0, 12, 16 ] },
+                "south": { "texture": "#iron_door_bottom", "uv": [ 10, 0, 13, 8 ] },
+                "west": { "texture": "#iron_door_top", "uv": [ 12, 0, 16, 16 ] },
+                "up": { "texture": "#iron_door_bottom", "uv": [ 7, 4, 10, 8 ] },
+                "down": { "texture": "#iron_door_bottom", "uv": [ 9, 7, 12, 11 ] }
+            }
+        },
+        {
+            "name": "Bottom",
+            "from": [ 0, 8, 2 ], 
+            "to": [ 1.5, 11, 6 ], 
+            "faces": {
+                "east": { "texture": "#iron_door_top", "uv": [ 12, 10, 4, 16 ] },
+                "west": { "texture": "#iron_door_top", "uv": [ 4, 10, 12, 16 ] },
+                "up": { "texture": "#iron_door_bottom", "uv": [ 10, 0, 13, 8 ] },
+                "down": { "texture": "#iron_door_bottom", "uv": [ 10, 0, 13, 8 ] }
+            }
+        },
+        {
+            "name": "Top",
+            "from": [ 0, 14, 2 ], 
+            "to": [ 1.5, 16, 6 ], 
+            "faces": {
+                "east": { "texture": "#iron_door_top", "uv": [ 12, 0, 4, 4 ] },
+                "west": { "texture": "#iron_door_top", "uv": [ 4, 0, 12, 4 ] },
+                "up": { "texture": "#iron_door_bottom", "uv": [ 10, 0, 13, 8 ] },
+                "down": { "texture": "#iron_door_bottom", "uv": [ 10, 0, 13, 8 ] }
+            }
+        },
+        {
+            "name": "Bar1",
+            "from": [ 0.5, 11, 3 ], 
+            "to": [ 1, 14, 3.5 ], 
+            "faces": {
+                "north": { "texture": "#iron_door_top", "uv": [ 6, 4, 7, 10 ] },
+                "east": { "texture": "#iron_door_top", "uv": [ 6, 4, 7, 10 ] },
+                "south": { "texture": "#iron_door_top", "uv": [ 6, 4, 7, 10 ] },
+                "west": { "texture": "#iron_door_top", "uv": [ 6, 4, 7, 10 ] }
+            }
+        },
+        {
+            "name": "Bar2",
+            "from": [ 0.5, 11, 4.5 ], 
+            "to": [ 1, 14, 5 ], 
+            "faces": {
+                "north": { "texture": "#iron_door_top", "uv": [ 9, 4, 10, 10 ] },
+                "east": { "texture": "#iron_door_top", "uv": [ 9, 4, 10, 10 ] },
+                "south": { "texture": "#iron_door_top", "uv": [ 9, 4, 10, 10 ] },
+                "west": { "texture": "#iron_door_top", "uv": [ 9, 4, 10, 10 ] }
+            }
+        },
+		
+		
+        {
+            "name": "Bottom",
+            "from": [ 0, 0, 0 ], 
+            "to": [ 1.5, 8, 8 ], 
+            "faces": {
+                "north": { "texture": "#iron_door_bottom", "uv": [ 3, 0, 6, 16 ] },
+                "east": { "texture": "#iron_door_bottom", "uv": [ 16, 0, 0, 16 ] },
+                "south": { "texture": "#iron_door_bottom", "uv": [ 3, 0, 6, 16 ] },
+                "west": { "texture": "#iron_door_bottom", "uv": [ 0, 0, 16, 16 ] },
+                "up": { "texture": "#iron_door_bottom", "uv": [ 3, 0, 6, 8 ] },
+                "down": { "texture": "#iron_door_bottom", "uv": [ 9, 0, 12, 8 ] }
+            }
+        }
+    ]
+}

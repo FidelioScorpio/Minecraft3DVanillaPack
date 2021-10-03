@@ -1,0 +1,499 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "minecraft:block/sugar_cane",
+        "sugar_cane": "minecraft:block/sugar_cane"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cane",
+            "from": [ 4, 0, 3 ], 
+            "to": [ 5, 16, 4 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 1, 0, 2, 16 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 1, 0, 2, 16 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 1, 0, 2, 16 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 1, 0, 2, 16 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 0, 2, 1 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] }
+            }
+        },
+        {
+            "name": "Cane",
+            "from": [ 10, 0, 4 ], 
+            "to": [ 11, 16, 5 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 6, 0, 7, 16 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 6, 0, 7, 16 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 6, 0, 7, 16 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 6, 0, 7, 16 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 6, 0, 7, 1 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 6, 14, 7, 15 ] }
+            }
+        },
+        {
+            "name": "Cane",
+            "from": [ 13, 0, 7 ], 
+            "to": [ 14, 16, 8 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 2, 0, 3, 16 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 2, 0, 3, 16 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 2, 0, 3, 16 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 2, 0, 3, 16 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 2, 0, 3, 1 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 2, 14, 3, 15 ] }
+            }
+        },
+        {
+            "name": "Cane",
+            "from": [ 9, 0, 12 ], 
+            "to": [ 10, 16, 13 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 9, 0, 10, 16 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 9, 0, 10, 16 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 9, 0, 10, 16 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 9, 0, 10, 16 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 9, 0, 10, 1 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 9, 14, 10, 15 ] }
+            }
+        },
+        {
+            "name": "Cane",
+            "from": [ 3, 0, 13 ], 
+            "to": [ 4, 16, 14 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 13, 0, 14, 16 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 13, 0, 14, 16 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 13, 0, 14, 16 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 13, 0, 14, 16 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 13, 0, 14, 1 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 13, 14, 14, 15 ] }
+            }
+        },
+        {
+            "name": "Cane",
+            "from": [ 6, 0, 9 ], 
+            "to": [ 7, 16, 10 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 10, 0, 11, 16 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 10, 0, 11, 16 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 10, 0, 11, 16 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 10, 0, 11, 16 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 10, 0, 11, 1 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 10, 14, 11, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 3.75, 6, 2.75 ], 
+            "to": [ 5.25, 7, 4.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 1, 9, 2, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 1, 9, 2, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 1, 9, 2, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 1, 9, 2, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 12, 2, 13 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 3.75, 14, 2.75 ], 
+            "to": [ 5.25, 15, 4.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 1, 1, 2, 2 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 1, 1, 2, 2 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 1, 1, 2, 2 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 1, 1, 2, 2 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 9.75, 10, 3.75 ], 
+            "to": [ 11.25, 11, 5.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 6, 5, 7, 6 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 6, 5, 7, 6 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 6, 5, 7, 6 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 6, 5, 7, 6 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 2, 14, 3, 15 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 2, 14, 3, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 9.75, 4, 3.75 ], 
+            "to": [ 11.25, 5, 5.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 5, 11, 7, 12 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 5, 11, 7, 12 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 5, 11, 7, 12 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 5, 11, 7, 12 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 14, 3, 16 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 3, 16 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 12.75, 6, 6.75 ], 
+            "to": [ 14.25, 7, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 13, 10, 14, 11 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 13, 10, 14, 11 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 13, 10, 14, 11 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 13, 10, 14, 11 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 12.75, 14, 6.75 ], 
+            "to": [ 14.25, 15, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 13, 2, 14, 3 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 13, 2, 14, 3 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 13, 2, 14, 3 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 13, 2, 14, 3 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 5.75, 9, 8.75 ], 
+            "to": [ 7.25, 10, 10.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 10, 6, 11, 7 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 10, 6, 11, 7 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 10, 6, 11, 7 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 10, 6, 11, 7 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 2, 14, 3, 15 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 2, 14, 3, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 5.75, 1, 8.75 ], 
+            "to": [ 7.25, 2, 10.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 10, 14, 11, 15 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 10, 14, 11, 15 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 10, 14, 11, 15 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 10, 14, 11, 15 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 2, 14, 3, 15 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 2, 14, 3, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 8.75, 1, 11.75 ], 
+            "to": [ 10.25, 2, 13.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 9, 14, 10, 15 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 9, 14, 10, 15 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 9, 14, 10, 15 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 9, 14, 10, 15 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 8.75, 9, 11.75 ], 
+            "to": [ 10.25, 10, 13.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 9, 6, 10, 7 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 9, 6, 10, 7 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 9, 6, 10, 7 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 9, 6, 10, 7 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 2.75, 5, 12.75 ], 
+            "to": [ 4.25, 6, 14.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 13, 10, 14, 11 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 13, 10, 14, 11 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 13, 10, 14, 11 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 13, 10, 14, 11 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 2, 15 ] }
+            }
+        },
+        {
+            "name": "Lump",
+            "from": [ 2.75, 13, 12.75 ], 
+            "to": [ 4.25, 14, 14.25 ], 
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 13, 2, 15, 3 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 13, 2, 15, 3 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 13, 2, 15, 3 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 13, 2, 15, 3 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 1, 14, 3, 16 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 1, 14, 3, 16 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 4.25, 6.5, 2.75 ], 
+            "to": [ 4.75, 8.5, 3.25 ], 
+            "rotation": { "origin": [ 4.5, 6.5, 3.5 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 4.25, 14.5, 3.75 ], 
+            "to": [ 4.75, 16.5, 4.25 ], 
+            "rotation": { "origin": [ 4.5, 14.5, 3.5 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 13.25, 13.5, 7.25 ], 
+            "to": [ 13.75, 15.5, 7.75 ], 
+            "rotation": { "origin": [ 13.5, 12.5, 7.5 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 13.25, 6.5, 6.75 ], 
+            "to": [ 13.75, 8.5, 7.25 ], 
+            "rotation": { "origin": [ 14.5, 6.5, 7.5 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 11.5, 4.5, 4.25 ], 
+            "to": [ 12, 6.5, 4.75 ], 
+            "rotation": { "origin": [ 10.5, 6.5, 4.5 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 10.25, 10.5, 4.75 ], 
+            "to": [ 10.75, 12.5, 5.25 ], 
+            "rotation": { "origin": [ 10.5, 11.5, 4.5 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 9.5, 12.5, 4.25 ], 
+            "to": [ 10, 14.5, 4.75 ], 
+            "rotation": { "origin": [ 10.5, 13.5, 4.5 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 9.5, 9.5, 12.25 ], 
+            "to": [ 10, 11.5, 12.75 ], 
+            "rotation": { "origin": [ 9.5, 9.5, 12.5 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 9.25, 5.5, 12 ], 
+            "to": [ 9.75, 7.5, 12.5 ], 
+            "rotation": { "origin": [ 9.5, 5.5, 12.5 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 9.25, 14.5, 12.75 ], 
+            "to": [ 9.75, 16.5, 13.25 ], 
+            "rotation": { "origin": [ 9.5, 15.5, 12.5 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 4, 13.5, 13.25 ], 
+            "to": [ 4.5, 15.5, 13.75 ], 
+            "rotation": { "origin": [ 3.5, 14.5, 13.5 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 3.5, 2.5, 13.25 ], 
+            "to": [ 4, 4.5, 13.75 ], 
+            "rotation": { "origin": [ 3.5, 3.5, 13.5 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 3.25, 5.25, 13.75 ], 
+            "to": [ 3.75, 7.25, 14.25 ], 
+            "rotation": { "origin": [ 2.5, 6.25, 14.5 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 2.5, 8.5, 13.25 ], 
+            "to": [ 3, 10.5, 13.75 ], 
+            "rotation": { "origin": [ 3.5, 9.5, 13.5 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 5.5, 11.25, 9.25 ], 
+            "to": [ 6, 13.25, 9.75 ], 
+            "rotation": { "origin": [ 6.5, 12.5, 9.5 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        },
+        {
+            "name": "Nub",
+            "from": [ 6.25, 4.5, 9.5 ], 
+            "to": [ 6.75, 6.5, 10 ], 
+            "rotation": { "origin": [ 6.5, 4.5, 9.5 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "east": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "south": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "west": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 10 ] },
+                "up": { "texture": "#sugar_cane", "uv": [ 0, 8, 0.5, 8.5 ] },
+                "down": { "texture": "#sugar_cane", "uv": [ 0, 9, 0.5, 9.5 ] }
+            }
+        }
+    ]
+}
